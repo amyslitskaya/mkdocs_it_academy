@@ -1,0 +1,26 @@
+site_name: My Docs
+nav:
+  - Get started:
+     - What is Docker?: docker-overview.md
+     - Introduction: intro/index.md 
+     - Get Docker Desktop: intro/get-docker-desktop.md
+     - Develop with containers: intro/develop-with-containers.md
+  - Guides: guides.md
+
+theme:
+  name: material
+  logo: image/transparent.png
+  features:
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer 
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+    
+    
+
+    
